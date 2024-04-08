@@ -1,6 +1,7 @@
 <script>
 import HeaderApp from './components/HeaderApp.vue';
 import MainApp from './components/MainApp.vue';
+// import Projectcard from './components/Projectcard.vue';
 
 export default {
     components: {
@@ -11,8 +12,7 @@ export default {
 </script>
 
 <template>
-<HeaderApp></HeaderApp>
-<MainApp></MainApp>
+    <HeaderApp></HeaderApp>
 </template>
 
 <style>
