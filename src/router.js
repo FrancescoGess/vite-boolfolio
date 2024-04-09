@@ -21,11 +21,6 @@ const router = createRouter({
           path: '/apiprojects/:slug',
           name: 'single-project',
           component: SingleProject
-      },
-      {
-          path: '/:pathMatch(.*)*',
-          name: "not-found",
-          component: NotFound
       }
   ]
 });
